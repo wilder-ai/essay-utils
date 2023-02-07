@@ -1,0 +1,13 @@
+<one-shot example (one pgh, one completion)>
+
+Your task is to write the next paragraph of an essay on: <problem>
+The next paragraph of the essay should address: <subproblem>
+
+Here are some sources that will help write the paragraph:
+<citation>
+<summary> (repeat)
+
+Using only the sources given above, continue the following essay with a paragraph on: <subproblem>
+
+Essay so far:
+<essay>

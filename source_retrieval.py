@@ -1,4 +1,7 @@
-from googlesearch import search
+try:
+    from googlesearch import search
+except ImportError:
+    print('module {googlesearch} not found')
 from newspaper import Article
 import openai
 
@@ -17,17 +20,16 @@ def scrape_source_dicts(subproblem, num_sources):
         if len(article.authors) > 0:
             source['author'] = article.authors[0]
         source['date'] = article.publish_date
-        words = article.text.split()
-        if len(words) < 500:
-            source['text'] = ' '.join(words)
+        if len(article.text) < 2500:
+            source['text'] = article.text
         else:
-            source['text'] = ' '.join(words[:250] + words[-250:])
+            source['text'] = article.text[:1250] + article.text[-1250:]
             
         print(source['title'])
         print(source['text'][:500])
         print('--------------------------\n\n\n')
 
-scrape_source_dicts("what is intermittent fasting", 5)
+scrape_source_dicts("how much exercise do adults need?", 5)
 
 
 
