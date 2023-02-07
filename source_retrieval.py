@@ -13,6 +13,7 @@ def scrape_source_dicts(subproblem, num_sources):
         article.download()
         article.parse()
         
+        source['title'] = article.title
         if len(article.authors) > 0:
             source['author'] = article.authors[0]
         source['date'] = article.publish_date
@@ -22,7 +23,8 @@ def scrape_source_dicts(subproblem, num_sources):
         else:
             source['text'] = ' '.join(words[:250] + words[-250:])
             
-        print(source)
+        print(source['title'])
+        print(source['text'][:500])
         print('--------------------------\n\n\n')
 
 scrape_source_dicts("what is intermittent fasting", 5)
