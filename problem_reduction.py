@@ -22,6 +22,7 @@ def reduce_problem(problem):
     completion = request['choices'][0]['text']
     return completion
 
+print(reduce_problem("should humans be modelled as rational economic agents?"))
 
     
     
