@@ -1,0 +1,17 @@
+This is a one-shot example (two sources for one subproblem)
+
+For the following source, write an APA reference then a summary focusing on new information that will help you write a paragraph on: <subproblem>
+Author:
+Date:
+Title:
+Text:
+Reference:
+Summary:
+
+For the following source, write an APA reference then a summary focusing on new information that will help you write a paragraph on: <subproblem>
+Author:
+Date:
+Title:
+Text:
+Reference:
+Summary:

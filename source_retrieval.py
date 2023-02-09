@@ -23,20 +23,18 @@ def scrape_source_dicts(subproblem, num_sources):
         if len(article.text) < 2500:
             source['text'] = article.text
         else:
-<<<<<<< HEAD
             source['text'] = article.text[:1250] + article.text[-1250:]
-            
-        print(source['title'])
-        print(source['text'][:500])
-        print('--------------------------\n\n\n')
-
-scrape_source_dicts("how much exercise do adults need?", 5)
+        sources.append(source)
+    return sources
 
 
+task = 'For the following source, write an APA reference then a summary focusing on new information that will help you write a paragraph on: '
 
-=======
-            source['text'] = ' '.join(words[:250] + words[-250:])
+def summarize_sources(sources):
+    with open('prompts/summarize_sources') as f:
+        example = f.read()
+    
+    
+    
+    
 
-
-scrape_source_dicts("what is intermittent fasting", 5)
->>>>>>> 38c816908220e76a58dd02604b060dab708f5f71

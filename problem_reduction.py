@@ -3,15 +3,14 @@ import os
 
 openai.api_key = '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'
 
-def get_fewshot_examples():
-    with open('problem_reduction.txt', 'r') as file:
-        return file.read()
-    
+
 def reduce_problem(problem):
-    examples = get_fewshot_examples()
+    with open('prompts/reduce_problem.txt', 'r') as file:
+        example =  file.read()
+        
     request = openai.Completion.create(
         model='text-davinci-003',
-        prompt= examples + problem,
+        prompt= example + problem,
         temperature=0.7,
         presence_penalty=0.25,
         frequency_penalty=0.25,
@@ -20,9 +19,8 @@ def reduce_problem(problem):
     )
 
     completion = request['choices'][0]['text']
-    return completion
+    return completion.split('\n')
 
-print(reduce_problem("should humans be modelled as rational economic agents?"))
+print(reduce_problem("how can machine learning researchers act environmentally responsibly?"))
 
-    
     

@@ -1,0 +1,6 @@
+<one-shot example (two short pgh)>
+
+Your task is to write the introduction and conclusion of an essay on <problem>
+Essay so far:
+<essay>
+Introduction:
