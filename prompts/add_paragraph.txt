@@ -6,7 +6,7 @@ Sources:
 <reference>
 <summary> (repeat)
 
-Using only the sources given above, citing them in (author, year) form, continue the following essay with a paragraph on: <subproblem>
+With help from the sources given above, citing them in (author, year) form, Continue the following essay with a paragraph on: <subproblem>
 
 Essay so far:
 <reference>

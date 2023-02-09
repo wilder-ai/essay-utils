@@ -1,6 +1,6 @@
 <one-shot example (two short pgh)>
 
-Your task is to write the introduction and conclusion of an essay on <problem>
+Your task is to write a brief introduction and a conclusion that answers the question to the following essay on <problem>.
 Essay so far:
 <essay>
 Introduction:

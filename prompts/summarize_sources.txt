@@ -1,17 +1,57 @@
-This is a one-shot example (two sources for one subproblem)
+TASK:
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: what are the health benefits of exercise?
+AUTHOR: Jonathan Myers
+DATE: 11/2003
+TITLE: Exercise and Cardiovascular Health
+URL: https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
+TEXT: Over the past 4 decades, numerous scientific reports have examined the relationships between physical activity, physical fitness, and cardiovascular health. Expert panels, convened by organizations such as the Centers for Disease Control and Prevention (CDC), the American College of Sports Medicine (ACSM), and the American Heart Association (AHA),1–3 along with the 1996 US Surgeon General’s Report on Physical Activity and Health,4 reinforced scientific evidence linking regular physical activity to various measures of cardiovascular health. The prevailing view in these reports is that more active or fit individuals tend to develop less coronary heart disease (CHD) than their sedentary counterparts. If CHD develops in active or fit individuals, it occurs at a later age and tends to be less severe.
 
-For the following source, write an APA reference then a summary focusing on new information that will help you write a paragraph on: <subproblem>
-Author:
-Date:
-Title:
-Text:
-Reference:
-Summary:
+As many as 250 000 deaths per year in the United States are attributable to a lack of regular physical activity. In addition, studies that followed large groups of individuals for many years have documented the protective effects of physical activity for a number of noncardiovascular chronic diseases, such as non–insulin-dependent diabetes, hypertension, osteoporosis, and colon cancer.4 In contrast, we see a higher rate of cardiovascular events and a higher death rate in those individuals with low levels of physical fitness.1,4 Even midlife increases in physical activity, through change in occupation or recreational activities, are associated with a decrease in mortality.5 Despite this evidence, however, the vast majority of adults in the United States remains effectively sedentary; less than one-third of Americans meets the minimal recommendations for activity as outlined by the CDC, ACSM, and AHA expert panels.
 
-For the following source, write an APA reference then a summary focusing on new information that will help you write a paragraph on: <subproblem>
-Author:
-Date:
-Title:
-Text:
-Reference:
-Summary:
+What Are the Benefits of Exercise?
+A sedentary lifestyle is one of the 5 major risk factors (along with high blood pressure, abnormal values for blood lipids, smoking, and obesity) for cardiovascular disease, as outlined by the AHA. Evidence from many scientific studies shows that reducing these risk factors decreases the chance of having a heart attack or experiencing another cardiac event, such as a stroke, and reduces the possibility of needing a coronary revascularization procedure (bypass surgery or coronary angioplasty). Regular exercise has a favorable effect on many of the established risk factors for cardiovascular disease. For example, exercise promotes weight reduction and can help reduce blood pressure. Exercise can reduce “bad” cholesterol levels in the blood (the low-density lipoprotein [LDL] level), as well as total cholesterol, and can raise the “good” cholesterol (the high-density lipoprotein level [HDL]). In diabetic patients, regular activity favorably affects the body’s ability to use insulin to control glucose levels in the blood. Although the effect of an exercise program on any single risk factor may generally be small, the effect of continued, moderate exercise on overall cardiovascular risk, when combined with other lifestyle modifications (such as proper nutrition, smoking cessation,and medication use), can be dramatic.
+
+Benefits of Regular Exercise on Cardiovascular Risk Factors
+Increase in exercise tolerance
+
+Reduction in body weight
+
+Reduction in blood pressure
+
+Reduction in bad (LDL and total) cholesterol
+
+Increase in good (HDL) cholesterol
+
+Increase in insulin sensitivity
+
+
+REFERENCE: Myers, J. (2003, January). Exercise and Cardiovascular Health. AHA Journals. https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
+SUMMARY: This article demonstrates a clear link between regular exercise and health. It lists benefits including reduced body weight, blood pressure, and bad cholesterol, and increased insulin sensitivity and good cholesterol, as well as increased exercise tolerance. The article states exercise decreases risk of heart attacks, stroke, hypertension, osteoporosis, and colon cancer.
+
+
+TASK:
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: What has been proposed to reform school districts?
+AUTHOR: About the Author
+DATE: 01/2014
+TITLE: Curriculum Reform in the Nation’s Largest School Districts
+URL: https://www.americanprogress.org/article/curriculum-reform-nations-largest-school-districts/
+TEXT: Download the PDF to view the table in Appendix A: District instructional materials adoption information.
+
+Introduction and summary
+Curricula and instructional materials are central to academic success. A 2017 literature review of relevant research1 provided strong evidence that choosing these materials wisely can be a cost-effective lever for states and districts seeking to improve academic achievement.2 One study of textbook adoption in five states found that use of the most effective textbook—based on achievement results—in fourth- and fifth-grade math correlated with increased student achievement of 0.1 standard deviations. This is as large as the gain from having an experienced rather than a novice teacher.3 And researchers who analyzed the impacts on student achievement of the most commonly used math textbooks in California found that use of a certain textbook was associated with a similar boost in student performance.4 Similar research is currently underway for California’s English language arts (ELA) and science instructional materials.5
+
+InProgress
+Stay informed on the most pressing issues of our time.
+Email Address
+
+SIGN UP
+While these findings were only correlational, curriculum effects have also been found in studies in which school curriculum was randomly assigned. This makes it more likely that the curriculum itself, rather than other district characteristics, was responsible for the increased student achievement.6 In fact, when the effect sizes—a measure of magnitude that is comparable across interventions—of various educational interventions are stacked against one another, the effect size of a strong curriculum is larger than that of many other common education reform efforts.7
+Acknowledgments
+The authors would like to thank the following peer reviewers for their invaluable feedback, which improved this paper greatly: Amy Briggs
+REFERENCE: Curriculum Reform in the Nation’s Largest School Districts. (2014, January). American Progress. https://www.americanprogress.org/article/curriculum-reform-nations-largest-school-districts/
+SUMMARY: This source highlights the importance of curricula and instructional materials to academic success. It cites a literature review giving evidence that instructional materials are a cheap way to improve achievement, a study showing using the most effective textbook correlated with increased student achievement in elementary school math, as well as a study demonstrating curriculum effects in districts where curricula were randomly assigned, showing that the curriculum itself is responsible for student achievement. In fact, the article states that a strong curriculum is more important than many common education reform efforts.
+
+
+TASK:
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: 
+
