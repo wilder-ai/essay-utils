@@ -3,7 +3,6 @@ Client: Is intermittent fasting beneficial for health?
 (2) What are the upsides and downsides of intermittent fasting for physical health?
 (3) What are the upsides and downsides of intermittent fasting for mental health?
 (4) Are there any upsides or downsides to intermittent fasting not yet listed?
-(5) Is intermittent fasting beneficial for health, on balance?
 
 Client: How can we fix the US healthcare system? 
 (1) What are the challenges facing the US healthcare system? 
@@ -16,6 +15,5 @@ Client: Which System is Better Suited for the 21st Century: Capitalism or Social
 (2) What are capitalism and socialism?
 (3) In what ways does capitalism address 21st Century issues better than socialism?
 (4) In what ways does socialism address 21st Century issues better than capitalism?
-(5) On balance, does capitalism or socialism better address 21st Century issues and why?
 
 Client: 

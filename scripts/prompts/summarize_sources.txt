@@ -1,5 +1,5 @@
 TASK:
-For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: what are the health benefits of exercise?
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary of the information that is relevant to the following problem: what are the health benefits of exercise?
 AUTHOR: Jonathan Myers
 DATE: 11/2003
 TITLE: Exercise and Cardiovascular Health
@@ -30,8 +30,8 @@ SUMMARY: This article demonstrates a clear link between regular exercise and hea
 
 
 TASK:
-For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: What has been proposed to reform school districts?
-AUTHOR: About the Author
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary of the information that is relevant to the following problem: what are the health benefits of exercise?
+AUTHOR: Discuss: Student's Work
 DATE: 01/2014
 TITLE: Curriculum Reform in the Nation’s Largest School Districts
 URL: https://www.americanprogress.org/article/curriculum-reform-nations-largest-school-districts/
@@ -53,5 +53,4 @@ SUMMARY: This source highlights the importance of curricula and instructional ma
 
 
 TASK:
-For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary using only information that will help you write a paragraph on: 
-
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary of the information that is relevant to the following problem: what are the health benefits of exercise?
