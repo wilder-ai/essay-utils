@@ -1,9 +1,8 @@
 import openai
 import os
 from source_retrieval import get_summaries
-
-openai.api_key = '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'
-
+from api_key import KEY
+openai.api_key = KEY
 
 def add_conclusion(problem, subproblem, current_essay, frequency_penalty=1):
     """ 

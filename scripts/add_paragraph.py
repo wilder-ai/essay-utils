@@ -1,9 +1,8 @@
 import openai
 import os
 from source_retrieval import get_summaries
-
-openai.api_key = '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'
-
+from api_key import KEY
+openai.api_key = KEY
 
 def add_paragraph(problem, subproblem, source_summaries, current_essay, frequency_penalty=1):
     """ 
@@ -32,7 +31,8 @@ def add_paragraph(problem, subproblem, source_summaries, current_essay, frequenc
 
     paragraph = request['choices'][0]['text'].strip()
     
-    prompt = 'Task:\nExtend that paragraph by making full use of each source given below, citing each in (author, year) form:\n\n'
+    prompt = "Read the below sources. Rewrite the above paragraph, by inserting sentences giving specific examples from the sources to illustrate points made in the paragraph, with analysis explaining how the evidence backs up the points. When you use the sources, cite them in (author, year) form. Don't remove any text from the original paragraph.\nSources:\n"
+    
     for source in source_summaries:
         prompt += 'Reference: ' + source['REFERENCE'] + '\n'
         prompt += 'Summary: ' + source['SUMMARY'] + '\n\n'
@@ -49,4 +49,6 @@ def add_paragraph(problem, subproblem, source_summaries, current_essay, frequenc
         n=1
     )
 
-    return request['choices'][0]['text'].strip()
+    reinforced = request['choices'][0]['text'].strip()
+    
+    return reinforced

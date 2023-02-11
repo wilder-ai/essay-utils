@@ -1,9 +1,8 @@
 import openai
 import os
 from get_subproblems import get_subproblems
-
-openai.api_key = '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'
-
+from api_key import KEY
+openai.api_key = KEY
 
 def write_introduction(problem, subproblems):
     """ 

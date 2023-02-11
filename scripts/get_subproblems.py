@@ -1,8 +1,8 @@
 import openai
 import os
+from api_key import KEY
 
-openai.api_key = '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'
-
+openai.api_key = KEY
 
 def get_subproblems(problem):
     """ 

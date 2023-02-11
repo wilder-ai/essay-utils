@@ -1,5 +1,9 @@
 TASK:
-For the following source, write a summary of the information that is relevant to the following problem: what are the health benefits of exercise?
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary of the information that is relevant to the following problem: what are the health benefits of exercise?
+AUTHOR: Jonathan Myers
+DATE: 11/2003
+TITLE: Exercise and Cardiovascular Health
+URL: https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
 TEXT: Over the past 4 decades, numerous scientific reports have examined the relationships between physical activity, physical fitness, and cardiovascular health. Expert panels, convened by organizations such as the Centers for Disease Control and Prevention (CDC), the American College of Sports Medicine (ACSM), and the American Heart Association (AHA),1–3 along with the 1996 US Surgeon General’s Report on Physical Activity and Health,4 reinforced scientific evidence linking regular physical activity to various measures of cardiovascular health. The prevailing view in these reports is that more active or fit individuals tend to develop less coronary heart disease (CHD) than their sedentary counterparts. If CHD develops in active or fit individuals, it occurs at a later age and tends to be less severe.
 
 As many as 250 000 deaths per year in the United States are attributable to a lack of regular physical activity. In addition, studies that followed large groups of individuals for many years have documented the protective effects of physical activity for a number of noncardiovascular chronic diseases, such as non–insulin-dependent diabetes, hypertension, osteoporosis, and colon cancer.4 In contrast, we see a higher rate of cardiovascular events and a higher death rate in those individuals with low levels of physical fitness.1,4 Even midlife increases in physical activity, through change in occupation or recreational activities, are associated with a decrease in mortality.5 Despite this evidence, however, the vast majority of adults in the United States remains effectively sedentary; less than one-third of Americans meets the minimal recommendations for activity as outlined by the CDC, ACSM, and AHA expert panels.
@@ -21,8 +25,9 @@ Increase in good (HDL) cholesterol
 Increase in insulin sensitivity
 
 
+REFERENCE: Myers, J. (2003, January). Exercise and Cardiovascular Health. AHA Journals. https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
 SUMMARY: This article demonstrates a clear link between regular exercise and health. It lists benefits including reduced body weight, blood pressure, and bad cholesterol, and increased insulin sensitivity and good cholesterol, as well as increased exercise tolerance. The article states exercise decreases risk of heart attacks, stroke, hypertension, osteoporosis, and colon cancer. In fact, 250,000 deaths per year are attributable to a lack of exercise. The article cites expert panels convened by the CDC, the American College of Sports Medicine, the American Hearts Association, and the 1996 US Surgeon General's Report on Physical Activity and Health.
 
 
 TASK:
-For the following source, write a summary of the information that is relevant to the following problem: 
+For the following source, write an APA reference (the author's name may not be a real name - if so, assume they are anonymous). Then write a summary of the information that is relevant to the following problem: 

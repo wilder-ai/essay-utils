@@ -1,0 +1,21 @@
+TASK:
+For the following source, write an APA reference (if the author does not have a real name, don't include it).
+AUTHOR: Jonathan Myers
+DATE: 11/2003
+TITLE: Exercise and Cardiovascular Health
+URL: https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
+REFERENCE: Myers, J. (2003, January). Exercise and Cardiovascular Health. AHA Journals. https://www.ahajournals.org/doi/full/10.1161/01.CIR.0000048890.59383.8D
+
+
+TASK:
+For the following source, write an APA reference (if the author does not have a real name, don't include it).
+AUTHOR: About the Author
+DATE: 4/2019
+TITLE: Whales likely impacted by Great Pacific garbage patch. 
+URL: https://www.theoceancleanup.com/updates/whales-likely-impacted-by-great-pacific-garbage-patch/
+REFERENCE: Whales likely impacted by Great Pacific garbage patch. (2019, April 10). The Ocean Cleanup. https://www.theoceancleanup.com/updates/whales-likely-impacted-by-great-pacific-garbage-patch/
+
+
+TASK:
+For the following source, write an APA reference (if the author does not have a real name, don't include it).
+

@@ -5,11 +5,10 @@ except ImportError:
 from newspaper import Article
 import os
 import openai
+from api_key import KEY
+openai.api_key = KEY
 
-openai.api_key = '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'
-
-
-def scrape_source_dicts(subproblem, num_sources, num_chars = 3000, urls_to_ignore = ()):
+def scrape_source_dicts(subproblem, num_sources, num_chars, urls_to_ignore):
     """ 
     Given input str `subproblem` (usually a question), search Google for the
     top urls not contained in `urls_to_ignore`, and parse each into a dict
@@ -50,36 +49,50 @@ def summarize_sources(subproblem, sources):
     with respect to the subproblem. Returns a List[dict] where each dict has
     fields for reference and summary of its index-corresponding source.
     """
-    source_summaries = []
+    source_list = []
     
+    with open('prompts/reference_sources.txt') as f:
+        reference_task = f.read()
     with open('prompts/summarize_sources.txt') as f:
-        example = f.read()
+        summarize_task = f.read()
     
-    for source in sources:
+    for s in sources:
+        source = {'URL': s['URL']}
         
-        prompt = example + subproblem + '\n'
-        for field, entry in source.items():
-            prompt += field + ': ' + entry + '\n'
+        ref_prompt = reference_task
+        for field, entry in s.items():
+            ref_prompt += field + ': ' + entry + '\n'
             
-        prompt += 'REFERENCE:'
+        ref_prompt += 'REFERENCE:'
         
         request = openai.Completion.create(
             model='text-davinci-003',
-            prompt= prompt,
-            temperature=0.7,
-            presence_penalty=0.25,
+            prompt= ref_prompt,
+            temperature=0,
+            presence_penalty=0.5,
             frequency_penalty=0.5,
             max_tokens=300,
             n=1
         )
-
-        completion = request['choices'][0]['text'].strip().split('SUMMARY:')
-        source_summaries.append({
-            'REFERENCE' : completion[0].strip(), 
-            'SUMMARY' : completion[1].strip(),
-            'URL': source['URL']})
-    
-    return source_summaries
+        completion = request['choices'][0]['text'].strip()
+        source['REFERENCE'] = completion
+        
+        summarize_prompt = summarize_task + subproblem + '\n'
+        summarize_prompt += 'TEXT: ' + s['TEXT'] + '\n\nSUMMARY:'
+        request = openai.Completion.create(
+            model='text-davinci-003',
+            prompt= summarize_prompt,
+            temperature=0,
+            presence_penalty=0,
+            frequency_penalty=0.5,
+            max_tokens=300,
+            n=1
+        )
+        completion = request['choices'][0]['text'].strip()
+        source['SUMMARY'] = completion
+        
+        source_list.append(source)
+    return source_list
 
 
 def get_summaries(subproblem, num_sources, num_chars = 3000, urls_to_ignore = ()):

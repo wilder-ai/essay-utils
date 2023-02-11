@@ -5,29 +5,38 @@ from source_retrieval import *
 from write_introduction import *
 from add_paragraph import *
 from add_conclusion import *
+from api_key import KEY
+openai.api_key = KEY
 
-openai.api_key = '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'
-
-
-def pipeline(problem, sources_per_body = 2, frequency_penalty = 1):
+def pipeline(problem, sources_per_body = 2, frequency_penalty = 1, verbose = False):
     subproblems = get_subproblems(problem)
-    print(subproblems)
+    if verbose: print(f"subproblems: {subproblems}")
+    
     essay = write_introduction(problem, subproblems)
+    if verbose: print("intro done")
     
     urls_used = []
     for subproblem in subproblems:
         sources = get_summaries(subproblem, sources_per_body, urls_to_ignore=urls_used)
         for s in sources:
-            urls_used.append(s['URL'])
-        essay += '\n\n' + add_paragraph(problem, subproblem, sources, essay)
-    essay += '\n\n' + add_conclusion(problem, subproblem, essay)
+            urls_used.append(s['URL'])        
+        if verbose: print(sources)
+
+        paragraph = add_paragraph(problem, subproblem, sources, essay)
+        essay += '\n\n' + paragraph 
+        if verbose: print("body pgh done" + '\n\n')
+
+
+    conclusion = add_conclusion(problem, subproblem, essay)
+    essay += '\n\n' + conclusion
     
     return essay
 
 
 if __name__ == '__main__':
-    problem = 'How good would life be in a post-scarcity civilization?'
+    problem = 'To what extent does intermittent fasting improve our lives?'
+    essay = pipeline(problem, 2, 1.5, True)
     
     with open('essays/essay.txt', 'w') as f:
         f.write(problem + '\n\n')
-        f.write(pipeline(problem, 2, 1.25))
+        f.write(essay)
