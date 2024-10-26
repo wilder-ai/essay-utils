@@ -34,7 +34,7 @@ def pipeline(problem, sources_per_body = 2, frequency_penalty = 1, verbose = Fal
 
 
 if __name__ == '__main__':
-    problem = 'To what extent does intermittent fasting improve our lives?'
+    problem = 'To what extent does intermittent fasting improve our health?'
     essay = pipeline(problem, 2, 1.5, True)
     
     with open('essays/essay.txt', 'w') as f:
