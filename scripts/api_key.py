@@ -1,2 +1,2 @@
-KEY = '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'
-model='text-davinci-003'
+KEY = 'sk-036aMtSStLthyHhcAO0Iqa9iDVSivE1ExDgPXZXIEmT3BlbkFJKc7a4qQlWXQtj9M-IgdH0WgLeWcDjSRFJ_sGPqZ5IA'
+MODEL= 'gpt-4-turbo'
