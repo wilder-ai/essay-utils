@@ -1,8 +1,9 @@
 import openai
 import os
 from get_subproblems import get_subproblems
-from api_key import KEY
+from api_key import *
 openai.api_key = KEY
+model = MODEL
 
 def write_introduction(problem, subproblems):
     """ 
@@ -20,7 +21,7 @@ def write_introduction(problem, subproblems):
     prompt += 'Introduction:'
     
     request = openai.Completion.create(
-        model='text-davinci-003',
+        model=model,
         prompt=prompt,
         temperature=0.7,
         presence_penalty=0.25,

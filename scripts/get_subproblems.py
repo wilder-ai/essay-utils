@@ -1,8 +1,9 @@
 import openai
 import os
-from api_key import KEY
+from api_key import *
 
 openai.api_key = KEY
+model = MODEL
 
 def get_subproblems(problem):
     """ 
@@ -15,7 +16,7 @@ def get_subproblems(problem):
         examples =  file.read()
         
     request = openai.Completion.create(
-        model='text-davinci-003',
+        model=model,
         prompt= examples + problem + '\n',
         temperature=0.25,
         presence_penalty=0.25,

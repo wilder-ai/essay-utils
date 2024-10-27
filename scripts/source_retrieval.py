@@ -5,8 +5,9 @@ except ImportError:
 from newspaper import Article
 import os
 import openai
-from api_key import KEY
+from api_key import *
 openai.api_key = KEY
+model = MODEL
 
 def scrape_source_dicts(subproblem, num_sources, num_chars, urls_to_ignore):
     """ 
@@ -66,7 +67,7 @@ def summarize_sources(subproblem, sources):
         ref_prompt += 'REFERENCE:'
         
         request = openai.Completion.create(
-            model='text-davinci-003',
+            model=model,
             prompt= ref_prompt,
             temperature=0,
             presence_penalty=0.5,
@@ -80,7 +81,7 @@ def summarize_sources(subproblem, sources):
         summarize_prompt = summarize_task + subproblem + '\n'
         summarize_prompt += 'TEXT: ' + s['TEXT'] + '\n\nSUMMARY:'
         request = openai.Completion.create(
-            model='text-davinci-003',
+            model=model,
             prompt= summarize_prompt,
             temperature=0,
             presence_penalty=0,

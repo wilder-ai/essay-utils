@@ -5,8 +5,9 @@ from source_retrieval import *
 from write_introduction import *
 from add_paragraph import *
 from add_conclusion import *
-from api_key import KEY
+from api_key import *
 openai.api_key = KEY
+model = MODEL
 
 def pipeline(problem, sources_per_body = 2, frequency_penalty = 1, verbose = False):
     subproblems = get_subproblems(problem)
@@ -34,7 +35,7 @@ def pipeline(problem, sources_per_body = 2, frequency_penalty = 1, verbose = Fal
 
 
 if __name__ == '__main__':
-    problem = 'To what extent does intermittent fasting improve our health?'
+    problem = 'Do anthropomorphized non-human animals in mass media affect marine life conservation?'
     essay = pipeline(problem, 2, 1.5, True)
     
     with open('essays/essay.txt', 'w') as f:

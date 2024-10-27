@@ -1,8 +1,9 @@
 import openai
 import os
 from source_retrieval import get_summaries
-from api_key import KEY
+from api_key import *
 openai.api_key = KEY
+model = MODEL
 
 def add_conclusion(problem, subproblem, current_essay, frequency_penalty=1):
     """ 
@@ -19,7 +20,7 @@ def add_conclusion(problem, subproblem, current_essay, frequency_penalty=1):
     prompt += current_essay
     prompt += f'Conclusion, answering the question ({problem}):' 
     request = openai.Completion.create(
-        model='text-davinci-003',
+        model=model,
         prompt=prompt,
         temperature=0.7,
         presence_penalty=0.25,
